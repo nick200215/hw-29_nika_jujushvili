@@ -1,0 +1,13 @@
+.cocktails-container {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	.cocktail-container {
+		display: flex;
+		flex-direction: column;
+		width: 360px;
+		& img {
+			width: 360px;
+		}
+	}
+}
